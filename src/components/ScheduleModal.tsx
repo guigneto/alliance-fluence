@@ -20,7 +20,7 @@ const ScheduleModal: React.FC = () => {
         </button>
       </DialogTrigger>
 
-      <DialogContent className="w-[92%] max-w-md rounded-2xl sm:rounded-lg p-0 overflow-hidden">
+      <DialogContent className="w-[92%] max-w-md rounded-2xl sm:rounded-lg p-0 overflow-hidden" onOpenAutoFocus={(e) => e.preventDefault()}>
         <div className="bg-emerald-200 p-6 text-center relative">
           <div className="inline-flex items-center gap-3 bg-emerald-100 rounded-full p-3 mx-auto max-w-[28rem]">
             <div className="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center">
@@ -48,7 +48,7 @@ const ScheduleModal: React.FC = () => {
 
             <div className="relative">
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"><Briefcase className="w-5 h-5" /></span>
-              <select className="w-full bg-white border border-border rounded-full px-14 py-4 text-muted-foreground shadow-sm">
+              <select className="w-full bg-white border border-border rounded-full px-14 py-4 min-h-[56px] text-muted-foreground shadow-sm appearance-none">
                 <option>Área de atuação</option>
                 <option>Marketing</option>
                 <option>Vendas</option>
@@ -58,7 +58,7 @@ const ScheduleModal: React.FC = () => {
 
             <div className="relative">
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"><DollarSign className="w-5 h-5" /></span>
-              <select className="w-full bg-white border border-border rounded-full px-14 py-4 text-muted-foreground shadow-sm">
+              <select className="w-full bg-white border border-border rounded-full px-14 py-4 min-h-[56px] text-muted-foreground shadow-sm appearance-none">
                 <option>Faixa de faturamento</option>
                 <option>Entre R$0 a R$15.000/mês</option>
                 <option>Entre R$15.000 a R$50.000/mês</option>
