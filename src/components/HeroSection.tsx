@@ -7,7 +7,7 @@ const HeroSection = () => {
       {/* Brand */}
       <div className="text-center mb-6">
         <h2 className="font-display text-2xl sm:text-3xl font-bold tracking-[0.25em] text-foreground">
-          ALLIENCE <span className="text-gradient-primary">AGENCY</span>
+          ALLIANCE <span className="text-gradient-primary">AGENCY</span>
         </h2>
       </div>
 
@@ -21,7 +21,7 @@ const HeroSection = () => {
 
       {/* Hero Title */}
       <div className="max-w-4xl text-center mb-8">
-        <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+        <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
           O ecossistema de marketing completo que usamos para levar empresas comuns a{" "}
           <span className="text-gradient-accent">múltiplos 6 dígitos</span>{" "}
           de faturamento mensal.
