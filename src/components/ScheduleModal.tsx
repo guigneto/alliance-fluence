@@ -38,12 +38,12 @@ const ScheduleModal: React.FC = () => {
           <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
             <div className="relative">
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"><User className="w-5 h-5" /></span>
-              <input placeholder="Primeiro nome" className="w-full bg-white border border-border rounded-full px-14 py-4 placeholder:text-muted-foreground shadow-sm" />
+              <input placeholder="Primeiro nome" className="w-full bg-white border border-border rounded-full px-14 py-4 placeholder:text-muted-foreground text-muted-foreground shadow-sm" />
             </div>
 
             <div className="relative">
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"><Phone className="w-5 h-5" /></span>
-              <input placeholder="Seu WhatsApp com DDD" className="w-full bg-white border border-border rounded-full px-14 py-4 placeholder:text-muted-foreground shadow-sm" />
+              <input placeholder="Seu WhatsApp com DDD" className="w-full bg-white border border-border rounded-full px-14 py-4 placeholder:text-muted-foreground text-muted-foreground shadow-sm" />
             </div>
 
             <div className="relative">
