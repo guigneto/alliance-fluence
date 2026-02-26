@@ -12,11 +12,14 @@ const HeroSection = () => {
       </div>
 
       {/* Tag */}
-      <div className="flex items-center gap-2 bg-secondary/80 border border-border rounded-full px-5 py-2 mb-12 sm:mb-16">
-        <Calendar className="w-4 h-4 text-primary" />
-        <span className="text-xs sm:text-sm font-medium text-muted-foreground tracking-wide">
-          SESSÃO ESTRATÉGICA GRATUITA <span className="text-primary font-bold">| Vagas Limitadas</span>
-        </span>
+      <div className="mb-12 sm:mb-16 flex justify-center px-4 w-full">
+        <div className="inline-flex items-center gap-2 bg-secondary/80 border border-border rounded-full px-5 py-2">
+          <Calendar className="w-[1em] h-[1em] text-primary shrink-0" style={{ fontSize: "clamp(11px, 3.2vw, 14px)" }} />
+          <span className="font-medium text-muted-foreground tracking-wide whitespace-nowrap" style={{ fontSize: "clamp(11px, 3.2vw, 14px)" }}>
+            SESSÃO ESTRATÉGICA GRATUITA{" "}
+            <span className="text-primary font-bold">| Vagas Limitadas</span>
+          </span>
+        </div>
       </div>
 
       {/* Hero Title */}
@@ -30,7 +33,7 @@ const HeroSection = () => {
 
       {/* Subtitle */}
       <p className="max-w-2xl text-center text-muted-foreground text-base sm:text-lg mb-14 leading-relaxed">
-        Atraindo clientes de alto valor (High-Ticket) sem precisar depender de dancinhas, virais ou produção de conteúdo exaustiva.
+        Atraindo clientes de alto valor (High-Ticket) sem precisar depender de dancinhas virais ou produção de conteúdo exaustiva.
       </p>
 
       {/* Value Props */}
