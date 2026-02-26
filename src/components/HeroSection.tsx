@@ -1,4 +1,5 @@
-import { Calendar, CheckCircle2, ArrowRight } from "lucide-react";
+import { Calendar, CheckCircle2 } from "lucide-react";
+import ScheduleModal from "@/components/ScheduleModal";
 
 const HeroSection = () => {
   return (
@@ -58,12 +59,7 @@ const HeroSection = () => {
       </div>
 
       {/* CTA */}
-      <button className="group relative bg-accent text-accent-foreground font-display font-bold text-sm sm:text-base tracking-wider px-8 sm:px-12 py-4 sm:py-5 rounded-lg animate-pulse-glow hover:scale-105 transition-transform duration-300 cursor-pointer">
-        <span className="flex items-center gap-3">
-          QUERO AGENDAR MINHA SESSÃO AGORA
-          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-        </span>
-      </button>
+      <ScheduleModal />
     </section>
   );
 };
