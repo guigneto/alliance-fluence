@@ -15,7 +15,7 @@
     --popover: 220 18% 10%;
     --popover-foreground: 210 20% 92%;
 
-    --primary: 174 72% 52%;
+    --primary: 270 72% 62%;
     --primary-foreground: 220 20% 7%;
 
     --secondary: 220 16% 16%;
@@ -32,24 +32,24 @@
 
     --border: 220 14% 18%;
     --input: 220 14% 18%;
-    --ring: 174 72% 52%;
+    --ring: 270 72% 62%;
 
     --radius: 0.75rem;
 
     --alert-bar: 4 80% 55%;
     --alert-bar-foreground: 0 0% 100%;
 
-    --glow-primary: 174 72% 52%;
+    --glow-primary: 270 72% 62%;
     --glow-accent: 40 90% 55%;
 
     --sidebar-background: 220 18% 10%;
     --sidebar-foreground: 210 20% 92%;
-    --sidebar-primary: 174 72% 52%;
+    --sidebar-primary: 270 72% 62%;
     --sidebar-primary-foreground: 220 20% 7%;
     --sidebar-accent: 220 16% 16%;
     --sidebar-accent-foreground: 210 20% 92%;
     --sidebar-border: 220 14% 18%;
-    --sidebar-ring: 174 72% 52%;
+    --sidebar-ring: 270 72% 62%;
   }
 }
 
@@ -71,7 +71,7 @@
 @layer utilities {
   .text-gradient-primary {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(174 90% 65%));
+    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(270 90% 65%));
   }
 
   .text-gradient-accent {
