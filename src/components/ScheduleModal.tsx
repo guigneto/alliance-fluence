@@ -20,7 +20,7 @@ const ScheduleModal: React.FC = () => {
         </button>
       </DialogTrigger>
 
-      <DialogContent className="max-w-md p-0 overflow-hidden">
+      <DialogContent className="w-[92%] max-w-md rounded-2xl sm:rounded-lg p-0 overflow-hidden">
         <div className="bg-emerald-200 p-6 text-center relative">
           <div className="inline-flex items-center gap-3 bg-emerald-100 rounded-full p-3 mx-auto max-w-[28rem]">
             <div className="w-8 h-8 rounded-full bg-emerald-50 flex items-center justify-center">
