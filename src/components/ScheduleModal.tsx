@@ -60,8 +60,13 @@ const ScheduleModal: React.FC = () => {
               <span className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"><DollarSign className="w-5 h-5" /></span>
               <select className="w-full bg-white border border-border rounded-full px-14 py-4 text-muted-foreground shadow-sm">
                 <option>Faixa de faturamento</option>
-                <option>Até 100k</option>
-                <option>100k+</option>
+                <option>Entre R$0 a R$15.000/mês</option>
+                <option>Entre R$15.000 a R$50.000/mês</option>
+                <option>Entre R$50.000 a R$80.000/mês</option>
+                <option>Entre R$80.000 a R$150.000/mês</option>
+                <option>Entre R$150.000 a R$250.000/mês</option>
+                <option>Entre R$250.000 a R$500.000/mês</option>
+                <option>Mais de R$500.000/mês</option>
               </select>
             </div>
 
